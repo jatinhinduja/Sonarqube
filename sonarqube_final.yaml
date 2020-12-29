@@ -94,9 +94,9 @@ Resources:
         Ref: KeyPair
       Tags:
         - Key: Name
-          Value: jh_Sonarqube4
+          Value: Sonarqube4
         - Key: Type
-          Value: jh_Sonarqube4
+          Value: Sonarqube4
       UserData:
         'Fn::Base64':
           !Sub |
